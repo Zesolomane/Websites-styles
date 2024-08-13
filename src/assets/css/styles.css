@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    text-decoration: none;
+}
+#header {
+    background-color: black;
+    color:white;
+    width:100%;
+    padding:10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#pageContainer {
+    width:90%;
+    margin: 0 auto;
+    
+    
+}
+ul {
+    list-style: none;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+}
+ul li{
+    padding:10px;
+    
+}
+ul li a{
+    color:black;
+    
+}
+ul li:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+#hero{
+    background-color: black;
+    height:300px;
+    width:100%;
+    border-radius:4px;
+    margin-bottom:60px;
+}
+
+#cardContainer{
+    display:flex;
+    flex-flow:row wrap;
+    width:100%;
+    justify-content: center;
+}
+.card{
+    background-color: black;
+    height:33.333%;
+    width:400px;
+    padding:30px;
+    margin: 10px;
+}
