@@ -13,9 +13,10 @@
 }
 
 #pageContainer {
+    position: relative;
     width:90%;
     margin: 0 auto;
-    
+    min-height: 100vh;
     
 }
 ul {
@@ -33,7 +34,7 @@ ul li a{
     
 }
 ul li:hover{
-    background-color: red;
+    background-color: gray;
     cursor: pointer;
 }
 
@@ -52,10 +53,21 @@ ul li:hover{
     width:100%;
     justify-content: center;
 }
+
+#contentLayout{
+    height:1200px;
+}
 .card{
     background-color: black;
     height:33.333%;
     width:400px;
     padding:30px;
     margin: 10px;
+}
+#footer{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height:300px;
+    background: #000;
 }
