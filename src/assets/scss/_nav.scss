@@ -1,0 +1,13 @@
+#nav {
+    height: 100px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    ul{
+        list-style: none;
+         
+    }
+    ul li:hover {
+        background-color: gray;
+    }
+}

@@ -1,0 +1,15 @@
+#gallery {
+    display:flex;
+    flex-flow: row wrap;
+    row-gap: 3px;
+    margin: 0 auto; 
+    width: 70%;
+  
+   
+    .item {
+        background-color: rgb(288,288,288);
+        height:300px;
+        width: 300px;
+
+    }
+}

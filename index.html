@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="src/assets/css/styles.css"/>
+    <link rel="stylesheet" href="./src/assets/css/styles.css"/>
 </head>
 <body>
     <!-- center the entire content of the page leave the header to take the full width -->
@@ -24,8 +24,16 @@
             </ul>
         </nav>
 
-        <div id="hero">
-            <img src="" alt="This is the hero of the page"/>
+        <div id="hero" class="slideShow">
+            <button onClick="pushSlides(-1)" class="prev"> &#8592; </button>
+            <div class="fade">
+                <img src="" alt="This is the hero of the page"/>
+            </div>
+            <div class="fade">
+                <img src="" alt="This is the hero of the page"/>
+            </div>
+          
+           <button onClick="pushSlides(1)" class="next"> -></button>
         </div>
 
 

@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    text-decoration: none;
+}
+
+#page-Container {
+    position: relative;
+    min-height:100vh;
+    width: 100%;
+}
+
+
+#nav ul {
+    list-style: none;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    background-color: white;
+}
+#nav ul li{
+    padding:10px;
+    
+}
+#nav ul li a{
+    color:black;
+    
+}
+#nav ul li:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+#endNav{
+    display:flex;
+    justify-self:flex-end;
+}
+#content-Layout{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    min-height:1900px;
+    
+    
+}
+
+
+#leftSide{
+    width: 25%;
+    background: white;
+    margin:5px;
+    box-shadow: 10px 10px 5px  rgb(228, 228, 228);
+    
+}
+
+/* end of left side content */
+#sideNav  ul{
+    
+    display:flex;
+    
+    flex-direction: column;
+    
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#sideNav ul li{
+    margin:20px 0px 0px 0px;
+    padding:20px;
+    width: 100%;
+    height:50px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    justify-content: center;
+    /* display:flex;
+    align-content: baseline;
+    justify-content: start; */
+    
+}
+
+
+
+#sideNav ul li:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+/* end of side nav */
+#center {
+   
+    height: 100%;
+    background-color: white;
+    margin:5px;
+    width:75%;
+    height: auto;
+    
+    padding-top:100px;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    
+}
+#transparent {
+    height:200px;
+    width:300px;
+    padding:20px;
+    box-shadow: 5px 5px 5px 5px rgb(228, 228, 228);
+    
+}
+#transparent:hover {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 3px;
+    color:white;
+}
+/* end of center */
+/*overlay */
+#overlay{
+
+    width:100%;
+    position:absolute;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    left:0;
+    top:0;
+    display: none;
+}
+#overlaySideNav{
+    height:100%;
+    position: absolute;
+    left:0;
+    width:0%;
+    background-color:white;
+    border-radius: 3px;
+    visibility: hidden;
+    transition: width 5s ease-in;;
+
+}
+
+
+button{
+    background-color: none;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+#listPlaceholder ul {
+    list-style: none;
+    padding-left: 0px;
+   
+    width:100%;
+    
+}
+#listPlaceholder ul li {
+    margin: 40px;
+    padding:20px;
+    height:50px;
+    border-radius:3px;
+
+}
+#listPlaceholder ul li:hover{
+    background-color: rgb(228, 228, 228);
+    box-shadow:5-x 5px 5px 5px rgb(228, 228, 228);
+}
+
+
+
+
+
+
+#footer{
+   width:100%;
+   height:300px;
+   background-color: black;
+   position:absolute;
+   bottom:0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  make pages responsive on smaller screens */
+@media screen and (max-width:900px){
+    #leftSide {
+        width:0%;
+        
+        
+    }
+    #center {
+        width:100%;
+    }
+
+}

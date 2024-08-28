@@ -1,0 +1,12 @@
+@use 'gallery';
+@use 'nav';
+@use 'footer';
+@use 'contentLayout';
+@use 'pageContainer';
+
+*{
+    margin:0px;
+}
+h1{
+    height:30px;
+}
