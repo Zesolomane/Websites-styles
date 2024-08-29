@@ -69,9 +69,6 @@
   box-sizing: border-box;
   border-radius: 3px;
   justify-content: center;
-  /* display:flex;
-  align-content: baseline;
-  justify-content: start; */
 }
 
 #sideNav ul li:hover {

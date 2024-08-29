@@ -1,0 +1,87 @@
+#contentLayout {
+    position: relative;
+    width:100%;
+    min-height:900px;
+    border: 1ps solid green;
+    padding-bottom: 300px;
+    display:flex;
+    flex-flow:row wrap;
+    
+}
+#leftSide {
+    width: 20%;
+    background: white;
+    margin:5px;
+    box-shadow: 10px 10px 5px  rgb(228, 228, 228);
+    
+}
+
+#sideNav  ul{
+    
+    display:flex;
+    
+    flex-direction: column;
+    
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    
+    padding:10px;
+   
+}
+
+#sideNav ul li{
+    display:flex;
+    margin:20px 0px 0px 0px;
+    padding:20px;
+    width: 100%;
+    height:50px;
+    
+    border-radius: 3px;
+    justify-content: start;
+    align-items: center;
+    
+}
+#sideNav ul li:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+#center {
+    width:70%;
+    display:flex;
+    flex-flow:row wrap;
+    padding:10px;
+    
+    #barChart {
+        width: 40%;
+        height:200px;
+        background-color: red;
+        margin:5px;
+        
+    }
+    #pieChart {
+        width: 60%;
+        height:200px;
+        background-color: green;
+        margin:5px;
+        
+    }
+    #areaChart {
+        width: 100%;
+        height:200px;
+        background-color: blue;
+        margin:5px;
+    }
+}
+
+
+
+
+@media screen and (max-width:900px) {
+    #leftSide {
+        display:none;
+    }
+    #center {
+        width:100%;
+    }
+}

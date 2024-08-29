@@ -1,35 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/das">
+    <link rel="stylesheet" href="../assets/css/dashBoard.css">
     <title>Document</title>
 </head>
+
 <body>
     <div id="pageContainer">
-        <div id="nav">
+        <nav id="nav">
             <ul>
-                <li>
-                    <h1>wow</h1>
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <div id="toggle">
+
+                </div>
+                <li> <a href="../../index.html">Layout No 1</a> </li>
+                <li> <a href="../pages/secondLayout.html">Layout No 2</a> </li>
+                <li> <a href="../pages/thirdLayout.html">Layout No 3</a> </li>
+
+                <li> <a href="../pages/dashboard.html">Database gallery</a> </li>
+                <div id="endNav">
+                    <ul>
+                        <li> <a href="login.html">Login</a> </li>
+                    </ul>
+
+                </div>
+
             </ul>
-        </div>
+        </nav>
         <div id="contentLayout">
-            <div id="gallery">
-                <div id="item"></div>
-                <div id="item"></div>
-                <div id="item"></div>
-                <div id="item"></div>
-                <div id="item"></div>
-                <div id="item"></div>
+            <div id="leftSide">
+                <div id="sideNav">
+                    <ul>
+                        <li>
+                            <!-- <button id="toggle">Side Nav Toggle</button> -->
+                        </li>
+                        <li>
+                            <span class="material-symbols-outlined">
+                                cached
+
+                            </span>
+                        </li>
+                        <li><span class="material-symbols-outlined">
+                                cached
+                            </span>
+                        </li>
+                        <li><span class="material-symbols-outlined">
+                                cached
+
+                            </span>
+                        </li>
+                        <li>
+                            <div>
+                                <span class="material-symbols-outlined">
+                                    cached
+                                </span>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
             </div>
+            <div id="center">
+                <div id="statsPage">
+
+                </div>
+                <div id="barChart">
+
+                </div>
+                <div id="pieChart">
+
+                </div>
+                <div id="areaChart">
+
+                </div>
+
+            </div>
+            <div id="footer"></div>
         </div>
-        <div id="footer"></div>
-    </div>
 </body>
+<script type="text/Javascript" src="../assets/JavaScript/main.js"></script>
+
 </html>
